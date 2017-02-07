@@ -27,6 +27,8 @@ I2P is not a very well-known service in comparison to Tor. It has received limit
 
   Tor uses a technique, known as onion routing. Onion routing is an internet protocol which is used to conceal a user’s IP address, by routing it through a series of proxy nodes, maintain by a global network of volunteers, and encrypting the traffic in transit. Each node can only know the identity of the previous node, making it so a given relay in the Tor network cannot know the complete route of the user’s data, and by extension, their identity. Each “hop” through the Tor network uses a separate key pair to make traffic further untraceable.
 
+(diagram of Tor network here)
+
 # Exit Nodes 
 
   Exit nodes are nodes in the Tor network which serve as exit points for the user’s traffic. This node can see what data the user requested, but it cannot see the user’s identity. Exit nodes are sometimes considered to be the weak point(s) in the Tor network, and are often heavily monitored by law enforcement.
